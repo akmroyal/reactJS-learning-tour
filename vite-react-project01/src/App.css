@@ -1,0 +1,66 @@
+/* BgChanger Css */
+
+.nav-bar button {
+  width: 100%;
+  border-radius: 10rem;
+  border: none;
+  background-color: blanchedalmond;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.nav-bar button:hover {
+  opacity: 0.8;
+  box-shadow: var(--tw-ring-inset) 0 0 0 calc(4px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+}
+
+.nav-bar button:nth-child(1) {
+  background-color: #FF8A08;
+  color: #ffffff;
+}
+
+.nav-bar button:nth-child(2) {
+  background-color: #153448;
+  color: white;
+}
+
+.nav-bar button:nth-child(3) {
+  background-color: #FF0080;
+  color: white;
+}
+
+.nav-bar button:nth-child(4) {
+  background-color: #8B0000;
+  color: white;
+}
+
+.nav-bar button:nth-child(5) {
+  background-color: #e9c214e6;
+  color: white;
+}
+
+.nav-bar button:nth-child(6) {
+  background-color: #0B6623;
+  color: white;
+}
+
+.nav-bar button:nth-child(7) {
+  background-color: #1F456E;
+  color: white;
+}
+
+.nav-bar button:nth-child(8) {
+  background-color: #4F97A3;
+  color: white;
+}
+
+.about-text{
+  color: #ffffff82;
+  text-shadow: 1px 1px 1px black;
+}
+
+/* PassWord Generator */
+.password-cont{
+  background-color: #f8feffa8;
+}
