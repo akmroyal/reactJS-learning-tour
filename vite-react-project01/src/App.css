@@ -55,12 +55,33 @@
   color: white;
 }
 
-.about-text{
+.about-text {
   color: #ffffff82;
   text-shadow: 1px 1px 1px black;
 }
 
 /* PassWord Generator */
-.password-cont{
+.password-cont {
   background-color: #f8feffa8;
+}
+
+/* Currency Converter Project */
+.bg-image {
+  background-image: url('https://img.freepik.com/free-vector/hand-drawn-flat-design-stock-market-concept_23-2149167960.jpg?t=st=1715743644~exp=1715747244~hmac=47a45bcaf5699666a2b95be29e30eb602a242b19c07eab7bdd69310a319ae975&w=996');
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-cont {
+  background: rgba(255, 255, 255, 0.39);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.9px);
+  -webkit-backdrop-filter: blur(8.9px);
+  border: 1px solid rgba(255, 255, 255, 0.33);
+}
+
+.swap-move{
+  bottom: -1.8rem;
+  outline: 4px solid rgb(255, 255, 255);
 }

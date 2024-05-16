@@ -3,6 +3,7 @@
 
 import React, { useState } from "react";
 import PassGenerator from "./PassGenerator";
+import CurrencyConverter from "./Currency Converter/CurrencyConverter";
 
 export default function Bgchanger() {
     const [color, setColor] = useState("#e6e6e6");
@@ -20,8 +21,10 @@ export default function Bgchanger() {
                     <button onClick={() => setColor("#4F97A3")}>TURKISH BLUE #4F97A3</button>
                 </div>
                 <h1 className="font-relect text-3xl font-semibold w-screen flex justify-center relative my-4 about-text">This is {color} background theme : Thank You !!</h1>
-                {/* Now I add here Password Generator */}
+                {/* Now I add here Password Generator project*/}
                 <PassGenerator />
+                {/* Now i add here Currency Generator Project */}
+                <CurrencyConverter/>
             </div>
         </>
     )
